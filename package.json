@@ -1,0 +1,28 @@
+{
+  "name": "jsonblockstore",
+  "version": "0.0.1",
+  "description": "Single file, block allocated storage for JSON objects.",
+  "engines": {},
+  "license": "MIT",
+  "scripts": {
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anywhichway/JSONBlockStore.git"
+  },
+  "keywords": [
+    "spreadsheet"
+  ],
+  "author": "Simon Y. Blackwell <syblackwell@anywhichway.com> (http://www.github.com/anywhichway)",
+  "bugs": {
+    "url": "https://github.com/anywhichway/JSONBlockStore/issues"
+  },
+  "homepage": "https://github.com/anywhichway/JSONBlockStore#readme",
+  "devDependencies": {
+   
+  },
+  "dependencies": {
+    
+  }
+}
