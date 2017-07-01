@@ -1,6 +1,6 @@
 {
   "name": "jsonblockstore",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Single file, high speed block allocated storage for JSON.",
   "engines": {},
   "license": "MIT",
@@ -9,7 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/anywhichway/JSONBlockStore.git"
   },
-  "keywords": [],
+  "keywords": [
+   	"filestore, database, key-value, localstorage, blockstore"
+  ],
   "author": "Simon Y. Blackwell <syblackwell@anywhichway.com> (http://www.github.com/anywhichway)",
   "bugs": {
     "url": "https://github.com/anywhichway/JSONBlockStore/issues"
@@ -17,6 +19,6 @@
   "homepage": "https://github.com/anywhichway/JSONBlockStore#readme",
   "devDependencies": {},
   "dependencies": {
-    "blockstore": "0.0.2"
+    "blockstore": ">=0.0.2"
   }
 }
