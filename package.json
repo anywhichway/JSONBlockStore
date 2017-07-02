@@ -1,6 +1,6 @@
 {
   "name": "jsonblockstore",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Single file, high speed block allocated storage for JSON.",
   "engines": {},
   "license": "MIT",

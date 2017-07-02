@@ -5,6 +5,8 @@ A thin wrapper around BlockStore.
 
 # Release History (reverse chronological order)
 
+v0.0.6 2017-07-02 Added null buffer handling
+
 v0.0.4 2017-07-01 Updated dependencies
 
 

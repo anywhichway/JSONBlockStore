@@ -8,7 +8,7 @@
 		}
 		async get(id,block=[]) {
 			const buffer = await super.get(id,block);
-			return JSON.parse(buffer.toString().replace(/[\0\n]/g,"").trim());
+			if(buffer) return JSON.parse(buffer.toString().replace(/[\0\n]/g,"").trim());
 		}
 		async set(id,data) {
 			super.set(id,JSON.stringify(data)+"\n");
