@@ -8,11 +8,13 @@
 		}
 		async get(id,block=[]) {
 			const buffer = await super.get(id,block);
-			if(buffer) return JSON.parse(buffer.toString().replace(/[\0\n]/g,"").trim());
+			if(buffer) { return JSON.parse(buffer.toString().replace(/[\0\n]/g,"").trim()); }
 		}
 		async set(id,data) {
 			super.set(id,JSON.stringify(data)+"\n");
 		}
 	}
+	JSONBlockStore.prototype.getItem = JSONBlockStore.prototype.get;
+	JSONBlockStore.prototype.setItem = JSONBlockStore.prototype.set;
 	module.exports = JSONBlockStore;
 }).call(this);
